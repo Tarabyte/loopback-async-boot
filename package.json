@@ -19,5 +19,8 @@
   },
   "husky": {
     "precommit": "eslint"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
