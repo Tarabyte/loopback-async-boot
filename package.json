@@ -1,0 +1,23 @@
+{
+  "name": "loopback-async-boot",
+  "version": "0.0.1",
+  "description": "Higher order wrapper to allow async functions as loopback boot scripts",
+  "main": "index.js",
+  "repository": "https://github.com/Tarabyte/loopback-async-boot.git",
+  "author": "Yury Tarabanko <tarabanko.yury@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-recommended": "^4.0.0",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest .",
+    "tdd": "jest . --watch --coverage"
+  },
+  "husky": {
+    "precommit": "eslint"
+  }
+}

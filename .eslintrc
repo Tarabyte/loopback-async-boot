@@ -1,0 +1,10 @@
+{
+  "extends": ["recommended/node"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "import/no-commonjs": 0,
+    "quotes": ["error", "single"]
+  }
+}
