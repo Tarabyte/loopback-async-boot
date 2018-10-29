@@ -22,5 +22,14 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "keywords": [
+    "loopback",
+    "async",
+    "boot",
+    "helper"
+  ],
+  "engines": {
+    "node": ">= 8"
+  }
 }
