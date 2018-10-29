@@ -1,6 +1,6 @@
 {
   "name": "loopback-async-boot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Higher order wrapper to allow async functions as loopback boot scripts",
   "main": "index.js",
   "repository": "https://github.com/Tarabyte/loopback-async-boot.git",
